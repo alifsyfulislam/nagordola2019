@@ -24,6 +24,10 @@ function topOfferF() {
     setTimeout(function () {
         button.style.display = "block";
     },2e3)
+    button.onclick = function () {
+        var ctaUrl = "http://www.kalerkantho.com/";
+        window.open(ctaUrl);
+    }
 }
 
 function rightOfferF() {
@@ -33,7 +37,12 @@ function rightOfferF() {
     setTimeout(function () {
         button.style.display = "block";
     },2e3)
+    button.onclick = function () {
+        var ctaUrl = "https://stackoverflow.com/";
+        window.open(ctaUrl);
+    }
 }
+
 
 function bottomOfferF() {
     container2.className = container2.className.replace('hidden', ' ');
@@ -42,6 +51,10 @@ function bottomOfferF() {
     setTimeout(function () {
         button.style.display = "block";
     },2e3)
+    button.onclick = function () {
+        var ctaUrl = "https://www.prothomalo.com/";
+        window.open(ctaUrl);
+    }
 }
 
 function leftOfferF() {
@@ -51,19 +64,18 @@ function leftOfferF() {
     setTimeout(function () {
         button.style.display = "block";
     },2e3)
+    button.onclick = function () {
+        var ctaUrl = "https://www.wizardsbd.com/";
+        window.open(ctaUrl);
+    }
 }
 
-
-
-button.onclick = function () {
-    var ctaUrl = "https://www.wizardsbd.com/";
-    window.open(ctaUrl);
-}
 
 
 container2.onclick = function () {
     container2.classList ? container2.classList.add('hidden') : container2.className += ' hidden';
-    document.location.reload(true);
+    //document.location.reload(true);
+    container1.style.display = "block";
 }
 
 
