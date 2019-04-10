@@ -25,7 +25,7 @@ function topOfferF() {
         button.style.display = "block";
     },2e3)
     button.onclick = function () {
-        var ctaUrl = "http://www.kalerkantho.com/";
+        var ctaUrl = "https://www.banglalink.net/bn/personal/internet/prepaid/standard-volume-pack/2gb-3days-tk-42";
         window.open(ctaUrl);
     }
 }
@@ -38,7 +38,7 @@ function rightOfferF() {
         button.style.display = "block";
     },2e3)
     button.onclick = function () {
-        var ctaUrl = "https://stackoverflow.com/";
+        var ctaUrl = "https://www.banglalink.net/bn/personal/internet/prepaid/standard-volume-pack/5gb-399-tk-30-days";
         window.open(ctaUrl);
     }
 }
@@ -52,7 +52,7 @@ function bottomOfferF() {
         button.style.display = "block";
     },2e3)
     button.onclick = function () {
-        var ctaUrl = "https://www.prothomalo.com/";
+        var ctaUrl = "https://www.banglalink.net/bn/personal/internet/prepaid/standard-volume-pack/6gb-7-days-tk-129";
         window.open(ctaUrl);
     }
 }
@@ -65,7 +65,7 @@ function leftOfferF() {
         button.style.display = "block";
     },2e3)
     button.onclick = function () {
-        var ctaUrl = "https://www.wizardsbd.com/";
+        var ctaUrl = "https://www.banglalink.net/bn/personal/internet/prepaid/standard-volume-pack/1426-mb-7-days-tk-49";
         window.open(ctaUrl);
     }
 }
