@@ -74,8 +74,8 @@ function leftOfferF() {
 
 container2.onclick = function () {
     container2.classList ? container2.classList.add('hidden') : container2.className += ' hidden';
-    //document.location.reload(true);
-    container1.style.display = "block";
+    document.location.reload(true);
+//     container1.style.display = "block";
 }
 
 
